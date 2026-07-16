@@ -1,0 +1,577 @@
+{
+  "Structural": {
+    "Model": {
+      "ServiceReport": [
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC1-ServiceReport.getServiceFee",
+          "testCaseName": "Verifying the structure of getServiceFee",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infy.model.ServiceReport.getServiceFee()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC2-ServiceReport.constructor",
+          "testCaseName": "Verifying the structure of constructor",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infy.model.ServiceReport.<init>(java.lang.Integer, java.lang.String, java.util.List, java.lang.Float)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC3-ServiceReport.setServiceFee",
+          "testCaseName": "Verifying the structure of setServiceFee",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infy.model.ServiceReport.setServiceFee(java.lang.Float)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC4-ServiceReport.getServiceId",
+          "testCaseName": "Verifying the structure of getServiceId",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infy.model.ServiceReport.getServiceId()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC5-ServiceReport.setIssues",
+          "testCaseName": "Verifying the structure of setIssues",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infy.model.ServiceReport.setIssues(java.util.List)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC6-ServiceReport.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <{serviceFee=class java.lang.Float, serviceId=class java.lang.Integer, brand=class java.lang.String, issues=interface java.util.List}> but was: <{}>"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC7-ServiceReport.getIssues",
+          "testCaseName": "Verifying the structure of getIssues",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infy.model.ServiceReport.getIssues()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC8-ServiceReport.setServiceId",
+          "testCaseName": "Verifying the structure of setServiceId",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infy.model.ServiceReport.setServiceId(java.lang.Integer)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC9-ServiceReport.setBrand",
+          "testCaseName": "Verifying the structure of setBrand",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infy.model.ServiceReport.setBrand(java.lang.String)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "ServiceReport",
+          "testCaseID": "STC10-ServiceReport.getBrand",
+          "testCaseName": "Verifying the structure of getBrand",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infy.model.ServiceReport.getBrand()"
+        }
+      ]
+    },
+    "Service": {
+      "MobileServiceImpl": [
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "STC1-MobileServiceImpl.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "STC2-MobileServiceImpl.getServices",
+          "testCaseName": "Verifying the structure of getServices",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "STC3-MobileServiceImpl.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "STC4-MobileServiceImpl.registerRequest",
+          "testCaseName": "Verifying the structure of registerRequest",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "STC5-MobileServiceImpl.calculateEstimateCost",
+          "testCaseName": "Verifying the structure of calculateEstimateCost",
+          "result": "Pass"
+        }
+      ]
+    },
+    "Exception": {
+      "MobileServiceException": [
+        {
+          "cadre": "Structural",
+          "group": "Exception",
+          "testClass": "MobileServiceException",
+          "testCaseID": "STC1-MobileServiceException.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Exception",
+          "testClass": "MobileServiceException",
+          "testCaseID": "STC2-MobileServiceException.constructor",
+          "testCaseName": "Verifying the structure of constructor",
+          "result": "Pass"
+        }
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC1-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the structure of isValidContactNumber",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC2-Validator.validate",
+          "testCaseName": "Verifying the structure of validate",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC3-Validator.isValidIMEINumber",
+          "testCaseName": "Verifying the structure of isValidIMEINumber",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC4-Validator.isValidCustomerName",
+          "testCaseName": "Verifying the structure of isValidCustomerName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC5-Validator.isValidIssues",
+          "testCaseName": "Verifying the structure of isValidIssues",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC6-Validator.isValidBrand",
+          "testCaseName": "Verifying the structure of isValidBrand",
+          "result": "Pass"
+        }
+      ]
+    }
+  },
+  "Logical": {
+    "Service": {
+      "MobileServiceImpl": [
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC1-MobileServiceImpl.getServices",
+          "testCaseName": "Verifying the functionality of getServices",
+          "testCaseDescription": "Expecting an exception throw - 'Sorry, we did not find any records for your query.'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown."
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC2-MobileServiceImpl.getServices",
+          "testCaseName": "Verifying the functionality of getServices",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodError: 'void com.infy.model.ServiceReport.<init>(java.lang.Integer, java.lang.String, java.util.List, java.lang.Float)'"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC3-MobileServiceImpl.registerRequest",
+          "testCaseName": "Verifying the functionality of registerRequest",
+          "testCaseDescription": "Expecting an exception throw - 'Sorry, we do not provide that service.'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown."
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC4-MobileServiceImpl.registerRequest",
+          "testCaseName": "Verifying the functionality of registerRequest",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC1-MobileServiceImpl.calculateEstimateCost",
+          "testCaseName": "Verifying the functionality of calculateEstimateCost for '[Battery Issue]'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <0.0> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC2-MobileServiceImpl.calculateEstimateCost",
+          "testCaseName": "Verifying the functionality of calculateEstimateCost for '[Battery]'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <10.0> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC3-MobileServiceImpl.calculateEstimateCost",
+          "testCaseName": "Verifying the functionality of calculateEstimateCost for '[Camera]'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <5.0> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC4-MobileServiceImpl.calculateEstimateCost",
+          "testCaseName": "Verifying the functionality of calculateEstimateCost for '[Screen]'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <15.0> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC5-MobileServiceImpl.calculateEstimateCost",
+          "testCaseName": "Verifying the functionality of calculateEstimateCost for '[Camera, Battery]'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <15.0> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC6-MobileServiceImpl.calculateEstimateCost",
+          "testCaseName": "Verifying the functionality of calculateEstimateCost for '[Screen, Camera, Battery]'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <30.0> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "MobileServiceImpl",
+          "testCaseID": "LTC7-MobileServiceImpl.calculateEstimateCost",
+          "testCaseName": "Verifying the functionality of calculateEstimateCost for '[Screen, Camera, Camera Screen, Screen]'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <35.0> but was: <null>"
+        }
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '1234567890' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '12345678' to be 'false'",
+          "testCaseDescription": "Contact Number has Less than 10 digits",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '12345678123456789' to be 'false'",
+          "testCaseDescription": "Contact Number has More than 10 digits",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '9999999999' to be 'false'",
+          "testCaseDescription": "ten digits are same.",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.validate",
+          "testCaseName": "Verifying the functionality of validate",
+          "testCaseDescription": "Expecting an exception throw - 'Sorry! we do not provide service for this brand'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown."
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.validate",
+          "testCaseName": "Verifying the functionality of validate",
+          "testCaseDescription": "Expecting an exception throw - 'Please provide the device only if there are issues.'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown."
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.validate",
+          "testCaseName": "Verifying the functionality of validate",
+          "testCaseDescription": "Expecting an exception throw - 'Sorry! we're not able to detect the IMEI number for this device'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown."
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.validate",
+          "testCaseName": "Verifying the functionality of validate",
+          "testCaseDescription": "Expecting an exception throw - 'Please provide a valid contact number'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown."
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC5-Validator.validate",
+          "testCaseName": "Verifying the functionality of validate",
+          "testCaseDescription": "Expecting an exception throw - 'Customer name is not valid'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown."
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidIMEINumber",
+          "testCaseName": "Verifying the functionality of isValidIMEINumber for '1234567812345678' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidIMEINumber",
+          "testCaseName": "Verifying the functionality of isValidIMEINumber for '12345678' to be 'false'",
+          "testCaseDescription": "IMEINumber has Less than 16 digits",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidIMEINumber",
+          "testCaseName": "Verifying the functionality of isValidIMEINumber for '12345678123456789' to be 'false'",
+          "testCaseDescription": "IMEINumber has More than 16 digits",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidCustomerName",
+          "testCaseName": "Verifying the functionality of isValidCustomerName for 'Valid Name' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidCustomerName",
+          "testCaseName": "Verifying the functionality of isValidCustomerName for 'Invalid  Name  Because of     Spaces' to be 'false'",
+          "testCaseDescription": "wordS not separated by a single space",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidCustomerName",
+          "testCaseName": "Verifying the functionality of isValidCustomerName for 'INvalid Name Wrong Casing' to be 'false'",
+          "testCaseDescription": "characters other than first character of an words, are in upper case",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidCustomerName",
+          "testCaseName": "Verifying the functionality of isValidCustomerName for 'invalid Name' to be 'false'",
+          "testCaseDescription": "first character not in upper case",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidIssues",
+          "testCaseName": "Verifying the functionality of isValidIssues for '[Battery]' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidIssues",
+          "testCaseName": "Verifying the functionality of isValidIssues for '[Battery, Camera]' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidIssues",
+          "testCaseName": "Verifying the functionality of isValidIssues for '[Battery Camera]' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidIssues",
+          "testCaseName": "Verifying the functionality of isValidIssues for '[Battery, Screen, Batttttery]' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC5-Validator.isValidIssues",
+          "testCaseName": "Verifying the functionality of isValidIssues for 'null' to be 'false'",
+          "testCaseDescription": "Issues are null",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC6-Validator.isValidIssues",
+          "testCaseName": "Verifying the functionality of isValidIssues for '[]' to be 'false'",
+          "testCaseDescription": "Issues is an Empty List",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidBrand",
+          "testCaseName": "Verifying the functionality of isValidBrand for 'Brand' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidBrand",
+          "testCaseName": "Verifying the functionality of isValidBrand for 'Invalid Brand' to be 'false'",
+          "testCaseDescription": "Brand contain spaces",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidBrand",
+          "testCaseName": "Verifying the functionality of isValidBrand for 'Brand55' to be 'false'",
+          "testCaseDescription": "Brand contain digits",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidBrand",
+          "testCaseName": "Verifying the functionality of isValidBrand for 'brand' to be 'false'",
+          "testCaseDescription": "Brand first character is not in Upper Case",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        }
+      ]
+    }
+  }
+}

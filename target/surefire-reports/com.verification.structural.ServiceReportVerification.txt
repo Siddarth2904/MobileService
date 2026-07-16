@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.ServiceReportVerification
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 9, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in com.verification.structural.ServiceReportVerification
+getServiceFee  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infy.model.ServiceReport.getServiceFee()
+	at com.verification.structural.ServiceReportVerification.getServiceFee(ServiceReportVerification.java:108)
+
+constructor  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infy.model.ServiceReport.<init>(java.lang.Integer, java.lang.String, java.util.List, java.lang.Float)
+	at com.verification.structural.ServiceReportVerification.constructor(ServiceReportVerification.java:48)
+
+setServiceFee  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infy.model.ServiceReport.setServiceFee(java.lang.Float)
+	at com.verification.structural.ServiceReportVerification.setServiceFee(ServiceReportVerification.java:115)
+
+getServiceId  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infy.model.ServiceReport.getServiceId()
+	at com.verification.structural.ServiceReportVerification.getServiceId(ServiceReportVerification.java:60)
+
+setIssues  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infy.model.ServiceReport.setIssues(java.util.List)
+	at com.verification.structural.ServiceReportVerification.setIssues(ServiceReportVerification.java:100)
+
+attributes  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{serviceFee=class java.lang.Float, serviceId=class java.lang.Integer, brand=class java.lang.String, issues=interface java.util.List}> but was: <{}>
+	at com.verification.structural.ServiceReportVerification.attributes(ServiceReportVerification.java:38)
+
+getIssues  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infy.model.ServiceReport.getIssues()
+	at com.verification.structural.ServiceReportVerification.getIssues(ServiceReportVerification.java:93)
+
+setServiceId  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infy.model.ServiceReport.setServiceId(java.lang.Integer)
+	at com.verification.structural.ServiceReportVerification.setServiceId(ServiceReportVerification.java:68)
+
+setBrand  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infy.model.ServiceReport.setBrand(java.lang.String)
+	at com.verification.structural.ServiceReportVerification.setBrand(ServiceReportVerification.java:85)
+
+getBrand  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infy.model.ServiceReport.getBrand()
+	at com.verification.structural.ServiceReportVerification.getBrand(ServiceReportVerification.java:77)
+

@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.MobileServiceImplVerification
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 10, Errors: 1, Skipped: 0, Time elapsed: 0.275 s <<< FAILURE! - in com.verification.logical.MobileServiceImplVerification
+getServices$NoRecordsFound  Time elapsed: 0.082 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown.
+	at com.verification.logical.MobileServiceImplVerification.getServices$NoRecordsFound(MobileServiceImplVerification.java:104)
+
+getServices  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void com.infy.model.ServiceReport.<init>(java.lang.Integer, java.lang.String, java.util.List, java.lang.Float)'
+	at com.verification.logical.MobileServiceImplVerification.getServices(MobileServiceImplVerification.java:87)
+
+registerRequest$InvalidIssuesException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected com.infy.exception.MobileServiceException to be thrown, but nothing was thrown.
+	at com.verification.logical.MobileServiceImplVerification.registerRequest$InvalidIssuesException(MobileServiceImplVerification.java:68)
+
+registerRequest  Time elapsed: 0.024 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.logical.MobileServiceImplVerification.registerRequest(MobileServiceImplVerification.java:58)
+
+calculateEstimateCost{List, Float}[1]  Time elapsed: 0.056 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <null>
+	at com.verification.logical.MobileServiceImplVerification.calculateEstimateCost(MobileServiceImplVerification.java:77)
+
+calculateEstimateCost{List, Float}[2]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <10.0> but was: <null>
+	at com.verification.logical.MobileServiceImplVerification.calculateEstimateCost(MobileServiceImplVerification.java:77)
+
+calculateEstimateCost{List, Float}[3]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5.0> but was: <null>
+	at com.verification.logical.MobileServiceImplVerification.calculateEstimateCost(MobileServiceImplVerification.java:77)
+
+calculateEstimateCost{List, Float}[4]  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <15.0> but was: <null>
+	at com.verification.logical.MobileServiceImplVerification.calculateEstimateCost(MobileServiceImplVerification.java:77)
+
+calculateEstimateCost{List, Float}[5]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <15.0> but was: <null>
+	at com.verification.logical.MobileServiceImplVerification.calculateEstimateCost(MobileServiceImplVerification.java:77)
+
+calculateEstimateCost{List, Float}[6]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <30.0> but was: <null>
+	at com.verification.logical.MobileServiceImplVerification.calculateEstimateCost(MobileServiceImplVerification.java:77)
+
+calculateEstimateCost{List, Float}[7]  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <35.0> but was: <null>
+	at com.verification.logical.MobileServiceImplVerification.calculateEstimateCost(MobileServiceImplVerification.java:77)
+
